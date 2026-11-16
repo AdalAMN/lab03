@@ -1,0 +1,21 @@
+{
+  "name": "lab03_01",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "dist/hello_world.js",
+  "types": "dist/hello_world.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+  "@types/jest": "^30.0.0",
+  "jest": "^30.5.2",
+  "ts-jest": "^29.4.15",
+  "ts-node": "^10.9.2",
+  "typescript": "^5.9.3"
+  },
+  "license": "ISC"
+}
